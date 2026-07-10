@@ -9,7 +9,7 @@
     <string name="theme_select_key">2</string>
     <string name="pref_b_hue_key">0.0</string>
     <string name="pref_gcam_watermark_key">0</string>
-    <string name="pref_lut_strength_key">0.7</string>
+    <string name="pref_lut_strength_key">1.0</string>
     <string name="pref_switch_to_previous_mode_command_string">71</string>
     <int name="tooltip_impression_count_for_cinematic_pan_edu" value="1" />
     <string name="pref_has_checked_cheetah_mode">1</string>
@@ -32,7 +32,7 @@
     <string name="manual_opmode_slowmo_key">32781</string>
     <boolean name="pref_disable_digital_iso_gain" value="false" />
     <string name="pref_chroma_denoise_multiplier_value_key">1.0</string>
-    <string name="dev_setting_filter_key">resol</string>
+    <string name="dev_setting_filter_key">face</string>
     <string name="pref_luma_denoise_gid14_multiplier_value_key">1.0</string>
     <string name="pref_nm_iso_max_value">0</string>
     <string name="br_key">0.119</string>
@@ -55,7 +55,7 @@
     <string name="mf_infinity_key">0.01</string>
     <string name="pref_c2a_key_5">3</string>
     <string name="pref_visible_button_key_1">1</string>
-    <int name="tooltip_impression_trigger_count_for_portrait_smarts_chip" value="1" />
+    <int name="tooltip_impression_trigger_count_for_portrait_smarts_chip" value="2" />
     <string name="pref_c2a_custom_key_name_3"></string>
     <string name="pref_c2a_key_2">3</string>
     <string name="manual_opmode_portrait_key">32785</string>
@@ -88,7 +88,7 @@
     <string name="pref_lib_profile_icon_1"></string>
     <string name="pref_fix_awbgains_key">0</string>
     <string name="pref_camera_front_flashmode_key">ns</string>
-    <string name="capture_indicator_thumbnail_uri">content://media/external/video/media/14915</string>
+    <string name="capture_indicator_thumbnail_uri">content://media/external/images/media/15061</string>
     <string name="pref_video_fps_vb_key">FPS_30</string>
     <string name="perf_has_run_first_education">1</string>
     <string name="pref_lens_name_key">1</string>
@@ -212,8 +212,8 @@
     <string name="pref_switch_to_next_mode_command_string">72</string>
     <string name="gb_key">0.086</string>
     <string name="pref_gcam_awb_key_3">0</string>
-    <string name="pref_gcam_awb_key_2">1</string>
-    <string name="pref_gcam_awb_key_5">1</string>
+    <string name="pref_gcam_awb_key_2">0</string>
+    <string name="pref_gcam_awb_key_5">0</string>
     <string name="pref_tonecurve_preset_key"></string>
     <string name="pref_gcam_awb_key_4">0</string>
     <string name="pref_manual_camera_id_key_front">-1</string>
@@ -252,7 +252,7 @@
     <string name="pref_shutter_command_string">66</string>
     <string name="pref_sabre_sharp_tuning_multiplier_value_key">1.0</string>
     <string name="pref_has_checked_gouda_mode">1</string>
-    <string name="pref_gcam_lut_key">0</string>
+    <string name="pref_gcam_lut_key">1</string>
     <string name="pref_watermark_icon_size_key">1.0</string>
     <string name="pref_lens_name_key_5">148</string>
     <string name="pref_lens_name_key_4">36</string>
@@ -360,12 +360,14 @@
     <string name="opmode_fix_ns_key">0</string>
     <string name="pref_hdr_tooltip_countdown">0</string>
     <string name="pref_camera_astro">0</string>
+    <string name="pref_color_transform_key_2">0</string>
     <string name="pref_fix_resolution_key">32</string>
     <string name="opmode_portrait_key">0</string>
     <string name="lib_fix_raw_sensor_key">1F2003D5</string>
     <boolean name="pref_luma_denoise_gid14_multiplier_enabled_key" value="false" />
     <string name="number_of_lines_gawb_key">8</string>
     <string name="opmode_timelapse_key">0</string>
+    <string name="pref_track_focus_key">0</string>
     <string name="manual_opmode_time_lapse_key">32780</string>
     <int name="tooltip_impression_count_for_iso_feature_bottom_sheet_edu" value="1" />
     <string name="pref_bento_meta_default_pref_lut_selection_key">off</string>
@@ -373,10 +375,18 @@
     <string name="pref_af_mode_back">0</string>
     <string name="pref_60_fps_main_key">1</string>
     <string name="pref_expcomp_available_key">0</string>
+    <string name="pref_interpolation_key_4">1</string>
+    <string name="pref_interpolation_key_3">1</string>
     <string name="pref_camera_catcher_key">0</string>
+    <string name="pref_interpolation_key_5">1</string>
     <string name="pref_colortransform_adjust_key">0</string>
     <string name="pref_c2a_custom_key_enable">1</string>
+    <string name="pref_interpolation_key_2">1</string>
+    <string name="pref_lut_strength_key_5">1.0</string>
+    <string name="pref_lut_strength_key_4">1.0</string>
+    <string name="pref_lut_strength_key_3">1.0</string>
     <string name="manual_opmode_video_key">32779</string>
+    <string name="pref_lut_strength_key_2">1.0</string>
     <string name="raw_key">32</string>
     <string name="pref_tonecurve_point_7">0.4375</string>
     <string name="pref_tonecurve_point_8">0.5</string>
@@ -408,15 +418,19 @@
     <string name="pref_luma_denoise_multiplier_value_key">1.0</string>
     <string name="pref_volume_key_action">shutter</string>
     <string name="pref_watermark_size_key">1.0</string>
-    <string name="pref_lut_selection_key">z80u v4.8 -0_100.cube</string>
+    <string name="pref_lut_selection_key">z80u_main_DCG_P3_byVT.cube</string>
     <string name="pref_color_transform_key">0</string>
     <string name="pref_bento_meta_type_pref_lut_selection_key">list</string>
+    <string name="pref_gcam_lut_key_3">1</string>
     <string name="pref_satcct_g_key">1.0</string>
-    <string name="pref_gcam_lut_key_4">0</string>
+    <string name="pref_gcam_lut_key_4">1</string>
+    <string name="pref_gcam_lut_key_5">1</string>
     <string name="pref_camera_hdr_plus_key">auto</string>
     <string name="pref_video_stabilization_key">1</string>
+    <string name="pref_gcam_lut_key_2">1</string>
     <string name="pref_preview_key">0</string>
     <string name="opmode_unitialized_key">0</string>
+    <boolean name="pref_key_reboot_completed" value="true" />
     <string name="opmode_photo_key">0</string>
     <string name="lib_ISOLimit_key">00008043</string>
     <set name="pref_list_camera_key">
@@ -440,6 +454,7 @@
     <string name="pref_nm_coeff_key">1.0</string>
     <string name="opmode_fix_video_key">0</string>
     <string name="pref_manual_camera_idwide_key_front">-1</string>
+    <string name="pref_lut_selection_key_2">z80u_wide_P3_byVT.cube</string>
     <string name="pref_tonecurve_point_12">0.75</string>
     <string name="pref_tonecurve_point_13">0.8125</string>
     <string name="pref_tonecurve_point_10">0.625</string>
@@ -448,7 +463,9 @@
     <string name="pref_tonecurve_point_16">1.0</string>
     <string name="pref_tonecurve_point_14">0.875</string>
     <string name="pref_tonecurve_point_15">0.9375</string>
-    <string name="pref_lut_selection_key_4"></string>
+    <string name="pref_lut_selection_key_5">z80u_teleISZ_P3_byVT.cube</string>
+    <string name="pref_lut_selection_key_4">z80u_main_P3_byVT.cube</string>
+    <string name="pref_lut_selection_key_3">z80u_tele_P3_byVT.cube</string>
     <set name="pref_list_back_camera_key">
         <string>0</string>
         <string>2</string>

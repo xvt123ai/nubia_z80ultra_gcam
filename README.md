@@ -39,6 +39,9 @@ Datasheet: [`OV50H (Light Fusion 900)`](docs/OV50H%20(Light%20Fusion%20900)%20da
 - HDR+ ZSL (Zero Shutter Lag) mode
 - HDR+ Enhanced mode
 - Night mode with automatic and manual frame accumulation control
+- JWB
+- Manually crafted color correction LUTs for each sensor, calibrated against the X-Rite ColorChecker reference
+- DCI-P3 JPGs by default
 
 **Video modes:**
 - 4K @ 30 fps — HDR HLG + DCG
@@ -47,8 +50,8 @@ Datasheet: [`OV50H (Light Fusion 900)`](docs/OV50H%20(Light%20Fusion%20900)%20da
 **Known issues:**
 - No 8K video
 - Enabling 60 fps in 4K HDR HLG + DCG mode may cause GCam to crash — reset settings and reapply the config to fix
-- Custom AWB does not work correctly in DCG mode
-- JWB is not configured
+- GoogleAWB does not work correctly in DCG mode
+
 
 **Screenshots:**
 
