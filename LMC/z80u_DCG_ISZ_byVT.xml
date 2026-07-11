@@ -88,7 +88,7 @@
     <string name="pref_lib_profile_icon_1"></string>
     <string name="pref_fix_awbgains_key">0</string>
     <string name="pref_camera_front_flashmode_key">ns</string>
-    <string name="capture_indicator_thumbnail_uri">content://media/external/images/media/15061</string>
+    <string name="capture_indicator_thumbnail_uri">content://media/external/video/media/15176</string>
     <string name="pref_video_fps_vb_key">FPS_30</string>
     <string name="perf_has_run_first_education">1</string>
     <string name="pref_lens_name_key">1</string>
@@ -426,7 +426,7 @@
     <string name="pref_gcam_lut_key_4">1</string>
     <string name="pref_gcam_lut_key_5">1</string>
     <string name="pref_camera_hdr_plus_key">auto</string>
-    <string name="pref_video_stabilization_key">1</string>
+    <string name="pref_video_stabilization_key">0</string>
     <string name="pref_gcam_lut_key_2">1</string>
     <string name="pref_preview_key">0</string>
     <string name="opmode_unitialized_key">0</string>
