@@ -48,13 +48,18 @@ Datasheet: [`OV50H (Light Fusion 900)`](docs/OV50H%20(Light%20Fusion%20900)%20da
 - 4K @ 60 fps SDR without DCG
 - OIS in video
 
+**Notes:**
+- EIS in video does not work correctly on Nubia z80 Ultra (also in a stock camera), disabled by default
+- Enabling DCG may cause a slight reduction in sharpness
+- Enabling DCG may cause a slight increase in chromatic aberration levels in some scenes
+
 **Known issues:**
+- Enabling DCG may cause a reduction in autofocus speed and accuracy, as well as disabling Qualcomm optimizations for subject selection during focusing
 - No 8K video
 - Enabling 60 fps in 4K HDR HLG + DCG mode may cause GCam to crash — reset settings and reapply the config to fix
 - GoogleAWB does not work correctly in DCG mode
-- EIS in video does not work correctly on Nubia z80 Ultra (also in a stock camera), disabled by default
-- Enabling DCG may cause slow AF performance and AF subject priority
-
+- 48MP does not work
+ 
 **Screenshots:**
 
 ![GCam Main Screen](screenshots/z80u_gcam_main_screen.jpg)
