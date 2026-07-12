@@ -3,7 +3,7 @@
     <string name="pref_double_tap_key">zoom</string>
     <string name="pref_last_installed_version_code">68013614</string>
     <string name="pref_ark_cameramanual_id_key_w">-1</string>
-    <string name="pref_zsl_frames_key">0</string>
+    <string name="pref_zsl_frames_key">24</string>
     <string name="pref_ark_cameramanual_id_key_t">-1</string>
     <string name="pref_sharpness_multiplier_value_key_gid14">1.0</string>
     <string name="theme_select_key">2</string>
@@ -42,6 +42,7 @@
     <string name="pref_visible_button_key_5">1</string>
     <string name="pref_visible_button_key_4">1</string>
     <string name="bento_always_on_key">1</string>
+    <string name="lib_unlimitedpayload_key">1</string>
     <string name="pref_camera_selfie_mirror_key">0</string>
     <string name="pref_bento_meta_title_pref_lut_selection_key">LUT Профиль</string>
     <string name="offset_key_a4">0</string>
@@ -71,7 +72,11 @@
     <string name="lib_merge3_sabre_fix_key">1</string>
     <string name="pref_codec_format">hevc</string>
     <string name="perf_has_shown_options_bar">1</string>
+    <string name="pref_frames_hdr_key_4">24</string>
     <string name="pref_jpg_quality_key">1</string>
+    <string name="pref_frames_hdr_key_5">24</string>
+    <string name="pref_frames_hdr_key_2">24</string>
+    <string name="pref_frames_hdr_key_3">24</string>
     <boolean name="pd_image_format_is_raw_depth10" value="true" />
     <string name="pref_c2a_custom_key_count_5">1</string>
     <string name="pref_c2a_key">3</string>
@@ -88,7 +93,7 @@
     <string name="pref_lib_profile_icon_1"></string>
     <string name="pref_fix_awbgains_key">0</string>
     <string name="pref_camera_front_flashmode_key">ns</string>
-    <string name="capture_indicator_thumbnail_uri">content://media/external/video/media/15176</string>
+    <string name="capture_indicator_thumbnail_uri">content://media/external/images/media/15562</string>
     <string name="pref_video_fps_vb_key">FPS_30</string>
     <string name="perf_has_run_first_education">1</string>
     <string name="pref_lens_name_key">1</string>
@@ -161,7 +166,7 @@
     <string name="pref_gammacurve_point_6">0.1875</string>
     <string name="manual_google_awb_key_rg0">0.0</string>
     <string name="pref_cct_wbintensity_key">0.0</string>
-    <string name="pref_merge_key">4</string>
+    <string name="pref_merge_key">3</string>
     <boolean name="pref_sabre_sharp_tuning_multiplier_enabled_key" value="false" />
     <set name="pref_list_front_camera_key">
         <string>1</string>
@@ -227,7 +232,7 @@
     <string name="opmode_fix_more_key">0</string>
     <string name="pref_sensorid_key_3">8</string>
     <string name="pref_update_available_chip_dismissal_times">0</string>
-    <string name="pref_sensorid_key_2">10</string>
+    <string name="pref_sensorid_key_2">12</string>
     <string name="opmode_fix_slowmo_key">4</string>
     <string name="pref_sensorid_key_5">6</string>
     <string name="pref_sensorid_key_4">3</string>
@@ -244,15 +249,15 @@
     <string name="pref_bento_selected_quick_params">pref_lut_selection_key&#10;pref_lut_strength_key</string>
     <string name="pref_4k_60fps_key">1</string>
     <string name="black_level_r_key">512</string>
-    <string name="pref_merge_key_4">-1</string>
-    <string name="pref_merge_key_3">-1</string>
-    <string name="pref_merge_key_5">-1</string>
+    <string name="pref_merge_key_4">3</string>
+    <string name="pref_merge_key_3">3</string>
+    <string name="pref_merge_key_5">3</string>
     <string name="pref_edge_key">0</string>
-    <string name="pref_merge_key_2">-1</string>
+    <string name="pref_merge_key_2">3</string>
     <string name="pref_shutter_command_string">66</string>
     <string name="pref_sabre_sharp_tuning_multiplier_value_key">1.0</string>
     <string name="pref_has_checked_gouda_mode">1</string>
-    <string name="pref_gcam_lut_key">1</string>
+    <string name="pref_gcam_lut_key">0</string>
     <string name="pref_watermark_icon_size_key">1.0</string>
     <string name="pref_lens_name_key_5">148</string>
     <string name="pref_lens_name_key_4">36</string>
@@ -267,10 +272,14 @@
     <int name="tooltip_impression_count_for_long_press" value="1" />
     <string name="lib_merge3_sabre_fix_key_2">1</string>
     <string name="pref_model_key">husky</string>
+    <string name="pref_zsl_frames_key_5">24</string>
     <string name="lib_merge3_sabre_fix_key_5">1</string>
     <string name="lib_merge3_sabre_fix_key_4">1</string>
     <string name="pref_interpolation_key">0</string>
+    <string name="pref_zsl_frames_key_2">24</string>
     <string name="pref_camera_picturesize_back_key">4096x3072</string>
+    <string name="pref_zsl_frames_key_4">24</string>
+    <string name="pref_zsl_frames_key_3">24</string>
     <string name="pref_camera_back_flashmode_key">off</string>
     <string name="black_level_corr_key">1</string>
     <string name="pref_manual_camera_id_key_main">-1</string>
@@ -353,7 +362,7 @@
     <string name="pref_specify_res_key_4">0</string>
     <string name="pref_specify_res_key_3">1</string>
     <string name="pref_specify_res_key_2">1</string>
-    <string name="pref_frames_hdr_key">0</string>
+    <string name="pref_frames_hdr_key">24</string>
     <string name="pref_camera_single_shot_sound_key">0</string>
     <string name="pref_zoom_out_command_string">20</string>
     <string name="pref_tonecurve_user_name">TonePreset</string>
@@ -410,7 +419,7 @@
     <string name="pref_google_awb_key_5">20</string>
     <string name="pref_google_awb_key_3">20</string>
     <string name="pref_google_awb_key_4">1</string>
-    <string name="pref_google_awb_key_2">20</string>
+    <string name="pref_google_awb_key_2">1</string>
     <string name="pref_sensorid_key">3</string>
     <string name="gr_key">-0.148</string>
     <boolean name="pref_iso_noise_key" value="false" />
@@ -421,13 +430,17 @@
     <string name="pref_lut_selection_key">z80u_main_DCG_P3_byVT.cube</string>
     <string name="pref_color_transform_key">0</string>
     <string name="pref_bento_meta_type_pref_lut_selection_key">list</string>
-    <string name="pref_gcam_lut_key_3">1</string>
+    <string name="pref_gcam_lut_key_3">0</string>
     <string name="pref_satcct_g_key">1.0</string>
-    <string name="pref_gcam_lut_key_4">1</string>
-    <string name="pref_gcam_lut_key_5">1</string>
+    <string name="pref_gcam_lut_key_4">0</string>
+    <string name="pref_gcam_lut_key_5">0</string>
+    <string name="lib_unlimitedpayload_key_3">1</string>
+    <string name="lib_unlimitedpayload_key_2">1</string>
+    <string name="lib_unlimitedpayload_key_5">1</string>
+    <string name="lib_unlimitedpayload_key_4">1</string>
     <string name="pref_camera_hdr_plus_key">auto</string>
     <string name="pref_video_stabilization_key">0</string>
-    <string name="pref_gcam_lut_key_2">1</string>
+    <string name="pref_gcam_lut_key_2">0</string>
     <string name="pref_preview_key">0</string>
     <string name="opmode_unitialized_key">0</string>
     <boolean name="pref_key_reboot_completed" value="true" />
@@ -503,5 +516,5 @@
     <string name="pref_noise_model_key">0</string>
     <string name="pref_sensor_bayer_pattern_key">0</string>
     <string name="pref_camera_advice_settings">1</string>
-    <string name="pref_camera_pistachio_enabled_key">0</string>
+    <string name="pref_camera_pistachio_enabled_key">1</string>
 </map>

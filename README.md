@@ -35,12 +35,12 @@ Datasheet: [`OV50H (Light Fusion 900)`](docs/OV50H%20(Light%20Fusion%20900)%20da
 **Features:**
 - Main camera with **DCG** custom vendor option — less noise in shadows, more dynamic range, 14-bit RAW from sensor
 - Tele camera with **ISZ** custom vendor option — zoom to 140 mm (sensor crop without binning)
-- Custom LUT support with adjustable blend percentage
+- Manually crafted color correction LUTs for each sensor, calibrated against the X-Rite ColorChecker reference (disabled by default)
 - HDR+ ZSL (Zero Shutter Lag) mode
 - HDR+ Enhanced mode
 - Night mode with automatic and manual frame accumulation control
 - JWB
-- Manually crafted color correction LUTs for each sensor, calibrated against the X-Rite ColorChecker reference
+
 - DCI-P3 JPGs by default
 
 **Video modes:**
@@ -52,6 +52,7 @@ Datasheet: [`OV50H (Light Fusion 900)`](docs/OV50H%20(Light%20Fusion%20900)%20da
 - EIS in video does not work correctly on Nubia z80 Ultra (also in a stock camera), disabled by default
 - Enabling DCG may cause a slight reduction in sharpness
 - Enabling DCG may cause a slight increase in chromatic aberration levels in some scenes
+- Colour c
 
 **Known issues:**
 - Enabling DCG may cause a reduction in autofocus speed and accuracy, as well as disabling Qualcomm optimizations for subject selection during focusing
@@ -59,7 +60,7 @@ Datasheet: [`OV50H (Light Fusion 900)`](docs/OV50H%20(Light%20Fusion%20900)%20da
 - Enabling 60 fps in 4K HDR HLG + DCG mode may cause GCam to crash — reset settings and reapply the config to fix
 - GoogleAWB does not work correctly in DCG mode
 - 48MP does not work
- 
+
 **Screenshots:**
 
 ![GCam Main Screen](screenshots/z80u_gcam_main_screen.jpg)
