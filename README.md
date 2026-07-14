@@ -40,8 +40,8 @@ Datasheet: [`OV50H (Light Fusion 900)`](docs/OV50H%20(Light%20Fusion%20900)%20da
 - HDR+ Enhanced mode
 - Night mode with automatic and manual frame accumulation control
 - JWB
-
 - DCI-P3 JPGs by default
+- 2× resolution upscaling option (Upscale: Lanczos + Enhancement: RAISR) — optimized for landscapes, architecture, text, and documents (disabled by default)
 
 **Video modes:**
 - 4K @ 30 fps with HDR HLG and|or DCG
@@ -52,14 +52,14 @@ Datasheet: [`OV50H (Light Fusion 900)`](docs/OV50H%20(Light%20Fusion%20900)%20da
 - EIS in video does not work correctly on Nubia z80 Ultra (also in a stock camera), disabled by default
 - Enabling DCG may cause a slight reduction in sharpness
 - Enabling DCG may cause a slight increase in chromatic aberration levels in some scenes
-- Colour c
 
 **Known issues:**
 - Enabling DCG may cause a reduction in autofocus speed and accuracy, as well as disabling Qualcomm optimizations for subject selection during focusing
 - No 8K video
 - Enabling 60 fps in 4K HDR HLG + DCG mode may cause GCam to crash — reset settings and reapply the config to fix
 - GoogleAWB does not work correctly in DCG mode
-- 48MP does not work
+- real 48MP does not work on Nubia z80 Ultra also in a stock camera (interpolation 12M-> 48M)
+HDR+ Enhanced limited to 8 frames (LMC 9.6 limitation)
 
 **Screenshots:**
 
