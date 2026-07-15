@@ -36,9 +36,10 @@ Datasheet: [`OV50H (Light Fusion 900)`](docs/OV50H%20(Light%20Fusion%20900)%20da
 - Main camera with **DCG** custom vendor option — less noise in shadows, more dynamic range, 14-bit RAW from sensor
 - Tele camera with **ISZ** custom vendor option — zoom to 140 mm (sensor crop without binning)
 - Manually crafted color correction LUTs for each sensor, calibrated against the X-Rite ColorChecker reference (disabled by default)
-- HDR+ ZSL (Zero Shutter Lag) mode
-- HDR+ Enhanced mode
+- HDR+ ZSL (Zero Shutter Lag) mode (24-frames)
+- HDR+ Enhanced mode (8-frames)
 - Night mode with automatic and manual frame accumulation control
+- Portrait mode with background blur
 - JWB
 - DCI-P3 JPGs by default
 - 2× resolution upscaling option (Upscale: Lanczos + Enhancement: RAISR) — optimized for landscapes, architecture, text, and documents (disabled by default)
@@ -58,7 +59,7 @@ Datasheet: [`OV50H (Light Fusion 900)`](docs/OV50H%20(Light%20Fusion%20900)%20da
 - No 8K video
 - Enabling 60 fps in 4K HDR HLG + DCG mode may cause GCam to crash — reset settings and reapply the config to fix
 - GoogleAWB does not work correctly in DCG mode
-- real 48MP does not work on Nubia z80 Ultra also in a stock camera (interpolation 12M-> 48M)
+- real 48MP does not work on Nubia z80 Ultra also in a stock camera (interpolation 12M->48M)
 HDR+ Enhanced limited to 8 frames (LMC 9.6 limitation)
 
 **Screenshots:**
