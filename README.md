@@ -15,11 +15,11 @@
 
 ## 📸 Camera Sensors
 
-| Camera | Sensor | Size | Features |
-|--------|--------|------|----------|
-| Main | OmniVision OV50H | 1/1.28" | +DCG |
-| Wide | OmniVision OV50E | 1/1.55" | — |
-| Tele | OmniVision OV64B | 1/2.0" | +ISZ |
+| Camera | Sensor           | Size    | Features |
+| --------| ------------------| ---------| ----------|
+| Main   | OmniVision OV50H | 1/1.28" | +DCG     |
+| Wide   | OmniVision OV50E | 1/1.55" | —        |
+| Tele   | OmniVision OV64B | 1/2.0"  | +ISZ     |
 
 Datasheet: [`OV50H (Light Fusion 900)`](docs/OV50H%20(Light%20Fusion%20900)%20datasheet.pdf)
 
@@ -41,8 +41,16 @@ Datasheet: [`OV50H (Light Fusion 900)`](docs/OV50H%20(Light%20Fusion%20900)%20da
 - Night mode with automatic and manual frame accumulation control
 - Portrait mode with background blur
 - JWB
-- DCI-P3 JPGs by default
+- DCI-P3 JPGs
 - 2× resolution upscaling option (Upscale: Lanczos + Enhancement: RAISR) — optimized for landscapes, architecture, text, and documents (disabled by default)
+- Noise profile, GID sensor type
+  - wide — from Z60 with +3.5 correction, BINNED (more details with small noise amount)
+  - main — system default, REMOSAICED (clean look)
+  - main DCG — system default, BINNED (more details with small noise amount)
+  - tele — system default, REMOSAICED (clean look)
+  - tele ISZ — system default, REMOSAICED (clean look)
+- Watermark
+
 
 **Video modes:**
 - 4K @ 30 fps with HDR HLG and|or DCG

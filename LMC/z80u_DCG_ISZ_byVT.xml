@@ -23,13 +23,18 @@
     <string name="pref_aux_text_color_enabled_key">#ffffffff</string>
     <string name="pref_camera_hdrplus_option_available_key">1</string>
     <string name="pref_p11_bottom_sheet_countdown">-1</string>
+    <string name="pref_nm_curve_key_2">0</string>
+    <string name="pref_nm_curve_key_3">0</string>
     <string name="pref_watermark_position_key">bottom_right</string>
+    <string name="pref_bento_meta_title_pref_nm_coeff_scale_key">Интенсивность зернистости</string>
     <string name="pref_fix_resolution_key_2">32</string>
     <string name="pref_fix_resolution_key_3">32</string>
+    <string name="pref_bento_meta_title_lib_oem_noise_key">Разблокировать модель шума</string>
     <string name="pref_fix_resolution_key_4">32</string>
     <string name="pref_fix_resolution_key_5">32</string>
     <string name="pref_watermark_icon_key">zte.png</string>
     <string name="manual_opmode_slowmo_key">32781</string>
+    <string name="pref_prev_mul_pref_nm_coeff_scale_key_2">2.0</string>
     <boolean name="pref_disable_digital_iso_gain" value="false" />
     <string name="pref_chroma_denoise_multiplier_value_key">1.0</string>
     <string name="dev_setting_filter_key">face</string>
@@ -43,6 +48,7 @@
     <string name="pref_visible_button_key_5">1</string>
     <string name="pref_visible_button_key_4">1</string>
     <string name="bento_always_on_key">1</string>
+    <string name="pref_watermark_exif_key">1</string>
     <string name="pref_camera_selfie_mirror_key">0</string>
     <string name="pref_bento_meta_title_pref_lut_selection_key">LUT Профиль</string>
     <string name="offset_key_a4">0</string>
@@ -52,6 +58,7 @@
     <string name="pref_c2a_key_front">0</string>
     <string name="pref_has_seen_vertical_pano_hint">1</string>
     <string name="pref_visible_button_key_3">1</string>
+    <string name="pref_nm_coeff_off_key_2">3.5</string>
     <string name="pref_visible_button_key_2">1</string>
     <string name="mf_infinity_key">0.01</string>
     <string name="pref_c2a_key_5">3</string>
@@ -91,23 +98,27 @@
     <string name="pref_black_level_key_2">0</string>
     <string name="pref_lib_profile_icon_6"></string>
     <string name="pref_frames_hdr_key_front">0</string>
+    <string name="pref_bento_meta_type_lib_oem_noise_key">list</string>
     <string name="pref_gammacurve_user_name">GammaPreset</string>
     <string name="pref_lib_profile_icon_1"></string>
     <string name="pref_fix_awbgains_key">0</string>
     <string name="pref_camera_front_flashmode_key">ns</string>
     <string name="pref_resampling_method_key_front">-1</string>
-    <string name="capture_indicator_thumbnail_uri">content://media/external/images/media/16360</string>
+    <string name="capture_indicator_thumbnail_uri">content://media/external/images/media/16802</string>
     <string name="pref_video_fps_vb_key">FPS_30</string>
     <string name="perf_has_run_first_education">1</string>
     <string name="pref_lens_name_key">1</string>
     <string name="pref_black_level_key">1</string>
     <string name="pref_c2a_custom_key_count_4">1</string>
+    <string name="lib_oem_noise_key_2">28008052</string>
     <string name="pref_c2a_custom_key_count_3">1</string>
     <string name="pref_specify_res_key_front">0</string>
     <string name="pref_get_enable_camera_key">1</string>
     <string name="pref_watermark_logo_horizontal_key">right</string>
     <string name="opmode_video_key_4">0</string>
-    <string name="pref_noise_model_key_2">0</string>
+    <string name="pref_track_focus_key_4">0</string>
+    <string name="pref_noise_model_key_3">0</string>
+    <string name="pref_noise_model_key_2">1539586765</string>
     <string name="pref_camera_kepler_enabled_key">1</string>
     <string name="pref_lib_profile_selection_key">0</string>
     <string name="opmode_more_key">0</string>
@@ -116,6 +127,7 @@
     <string name="pref_zoom_in_command_string">19</string>
     <string name="pref_ois_key">1</string>
     <string name="pref_camera_dynamic_depth_enabled_key">0</string>
+    <string name="black_level_corr_key_4">0.0</string>
     <string name="pref_has_shown_longp_education">0</string>
     <string name="pref_camera_picturesize_front_key">2304x1728</string>
     <string name="pref_camera_grid_lines_mode">1</string>
@@ -138,8 +150,10 @@
     <string name="rg_key">-0.94</string>
     <string name="scale_key_c1">0</string>
     <string name="pref_camera_enable_iris">0</string>
+    <string name="pref_bento_meta_default_pref_noise_model_key">0</string>
     <string name="pref_satcct_key">1.0</string>
     <string name="pref_getfrontid_stringentries_key">Manual,Auto,&#10;Camera ID= 1(physical)&#10;Focal length= 3.54mm&#10;Aperture= f/2.0&#10;Angle= 78°&#10;Sensitivity range= 100 - 6200&#10;Ae compensation range= -12 - 12&#10;Pixel size= 2.00µm&#10;35mm eqv focal length= 27.56mm&#10;Flash= false&#10;Hardware level= 3,&#10;Camera ID= 1(physical)&#10;Focal length= 3.54mm&#10;Aperture= f/2.0&#10;Angle= 78°&#10;Sensitivity range= 100 - 6200&#10;Ae compensation range= -12 - 12&#10;Pixel size= 2.00µm&#10;35mm eqv focal length= 27.56mm&#10;Flash= false&#10;Hardware level= 3,</string>
+    <string name="black_level_r_key_4">0.0</string>
     <string name="pref_model_key_front">auto</string>
     <string name="pip_size_key">1.0</string>
     <string name="pref_gammacurve_point_30">0.9375</string>
@@ -147,6 +161,7 @@
     <string name="pref_gammacurve_point_31">0.96875</string>
     <string name="pref_gammacurve_point_32">1.0</string>
     <long name="tooltip_latest_impression_timestamp_for_focus_feature_bottom_sheet_edu" value="1783461205213" />
+    <string name="pref_nm_coeff_scale_key_2">3.5</string>
     <string name="scale_key_d3">0</string>
     <string name="pref_c2a_sm_apply_mode_key">0</string>
     <string name="scale_key_d4">0</string>
@@ -187,6 +202,7 @@
     <string name="pref_bento_meta_title_pref_sensorid_key">Логика объектива</string>
     <string name="opmode_ns_key">0</string>
     <string name="manual_google_awb_key_bg0">0.0</string>
+    <string name="pref_bento_meta_type_pref_nm_coeff_off_key">text</string>
     <string name="raw_key_2">32</string>
     <string name="manual_google_awb_key_bg3">0.0</string>
     <string name="raw_key_3">32</string>
@@ -224,6 +240,7 @@
     <string name="pref_switch_to_next_mode_command_string">72</string>
     <string name="pref_bento_meta_default_pref_sensorid_key">0</string>
     <string name="gb_key">0.086</string>
+    <string name="pref_bento_meta_default_lib_oem_noise_key">0</string>
     <string name="pref_gcam_awb_key_3">0</string>
     <string name="pref_gcam_awb_key_2">0</string>
     <string name="pref_gcam_awb_key_5">0</string>
@@ -235,12 +252,12 @@
     <string name="pref_c2a_custom_key_value_4">0</string>
     <string name="pref_c2a_custom_key_value_3">0</string>
     <string name="pref_bento_meta_title_pref_lut_strength_key">Прозрачность LUT</string>
-    <string name="pref_camera_cuttlefish_bone_option">0</string>
+    <string name="pref_camera_cuttlefish_bone_option">1</string>
     <string name="pref_c2a_custom_key_value_5">6</string>
     <string name="opmode_fix_more_key">0</string>
-    <string name="pref_sensorid_key_3">8</string>
+    <string name="pref_sensorid_key_3">7</string>
     <string name="pref_update_available_chip_dismissal_times">0</string>
-    <string name="pref_sensorid_key_2">11</string>
+    <string name="pref_sensorid_key_2">12</string>
     <string name="opmode_fix_slowmo_key">4</string>
     <string name="pref_sensorid_key_5">7</string>
     <string name="pref_sensorid_key_4">2</string>
@@ -252,11 +269,13 @@
     <string name="pref_denoise_key">0</string>
     <string name="pref_gammacurve_preset_key"></string>
     <string name="key_ff_opt_in">0</string>
+    <string name="black_level_gr_key_4">0.0</string>
     <string name="pref_model_key_5">husky</string>
     <string name="pref_model_key_4">husky</string>
     <string name="pref_model_key_3">husky</string>
+    <string name="pref_bento_meta_type_pref_nm_coeff_scale_key">text</string>
     <string name="pref_model_key_2">auto</string>
-    <string name="pref_bento_selected_quick_params">pref_lut_selection_key&#10;pref_lut_strength_key&#10;pref_sensorid_key</string>
+    <string name="pref_bento_selected_quick_params">pref_lut_selection_key&#10;pref_lut_strength_key&#10;pref_sensorid_key&#10;pref_noise_model_key&#10;lib_oem_noise_key&#10;pref_nm_coeff_scale_key&#10;pref_nm_coeff_off_key</string>
     <string name="pref_4k_60fps_key">1</string>
     <string name="black_level_r_key">512</string>
     <string name="pref_merge_key_4">1</string>
@@ -280,7 +299,9 @@
     <string name="pref_lens_name_key_1">36dcg</string>
     <string name="pref_expcomp_available_key_4">0</string>
     <string name="pref_interface_key_front">auto</string>
+    <string name="pref_prev_mul_pref_nm_coeff_scale_key">1.0</string>
     <string name="pref_camera_hdr_plus_flashmode_thermally_disabled_key">0</string>
+    <string name="white_level_manual_key_4">1023</string>
     <string name="manual_opmode_ns_key">32932</string>
     <string name="lib_merge3_sabre_fix_key_3">1</string>
     <int name="tooltip_impression_count_for_long_press" value="1" />
@@ -291,6 +312,7 @@
     <string name="lib_merge3_sabre_fix_key_4">1</string>
     <string name="pref_interpolation_key">0</string>
     <string name="pref_zsl_frames_key_2">24</string>
+    <string name="pref_prev_mul_pref_nm_coeff_off_key">2.0</string>
     <string name="pref_camera_picturesize_back_key">4096x3072</string>
     <string name="pref_zsl_frames_key_4">24</string>
     <string name="pref_zsl_frames_key_3">24</string>
@@ -299,12 +321,14 @@
     <string name="pref_sensorid_key_front">0</string>
     <string name="pref_manual_camera_id_key_main">-1</string>
     <string name="pref_aux_key">3</string>
-    <string name="pref_watermark_text_key">Shot on {MODEL}</string>
+    <string name="pref_watermark_text_key">Shot on Z80 Ultra</string>
     <string name="pref_expcomp_key_2">0.0</string>
+    <string name="pref_expcomp_key_4">0.0</string>
     <string name="pref_ark_camera_id_key_uw">-1</string>
     <string name="pref_camera_video_back_flashmode_thermally_disabled_key">0</string>
     <string name="pref_white_level_key_5">0</string>
     <int name="tooltip_impression_count_for_amethyst_edu" value="1" />
+    <string name="black_level_gb_key_4">0.0</string>
     <string name="pref_wbcolor_space_key">0</string>
     <string name="pref_white_level_key_3">0</string>
     <string name="pref_interface_key_4">husky</string>
@@ -317,6 +341,7 @@
     <string name="pref_interface_key_3">husky</string>
     <string name="pref_camera_resolution">full</string>
     <string name="pref_google_awb_key_front">20</string>
+    <string name="pref_prev_mul_pref_nm_coeff_off_key_2">2.0</string>
     <string name="white_level_manual_key">16383</string>
     <string name="bg_key">-0.914</string>
     <string name="pref_upscale_key">0</string>
@@ -390,6 +415,7 @@
     <string name="opmode_portrait_key">0</string>
     <string name="pref_color_transform_key_front">0</string>
     <string name="lib_fix_raw_sensor_key">1F2003D5</string>
+    <string name="pref_bento_meta_default_pref_nm_coeff_scale_key">1.0</string>
     <boolean name="pref_luma_denoise_gid14_multiplier_enabled_key" value="false" />
     <string name="number_of_lines_gawb_key">8</string>
     <string name="opmode_timelapse_key">0</string>
@@ -434,14 +460,17 @@
     <string name="pref_manual_camera_id_key_2">-1</string>
     <string name="pref_manual_camera_id_key_5">3</string>
     <long name="tooltip_latest_impression_timestamp_for_amethyst_edu" value="1783527748183" />
+    <string name="black_level_b_key_4">0.0</string>
     <string name="pref_manual_camera_id_key_3">-1</string>
     <string name="pref_manual_camera_id_key_4">0</string>
     <string name="pref_watermark_datetime_key">none</string>
     <string name="pref_google_awb_key_5">20</string>
     <string name="pref_google_awb_key_3">20</string>
+    <string name="pref_bento_meta_type_pref_noise_model_key">list</string>
     <string name="pref_google_awb_key_4">1</string>
     <string name="pref_google_awb_key_2">1</string>
-    <string name="pref_sensorid_key">2</string>
+    <string name="pref_bento_meta_title_pref_nm_coeff_off_key">Чистота теней</string>
+    <string name="pref_sensorid_key">3</string>
     <string name="gr_key">-0.148</string>
     <boolean name="pref_iso_noise_key" value="false" />
     <string name="pref_mars_enabled">0</string>
@@ -450,10 +479,12 @@
     <string name="pref_watermark_size_key">1.0</string>
     <string name="pref_upscale_array_key_2">20</string>
     <string name="pref_upscale_array_key_3">20</string>
+    <string name="pref_bento_meta_title_pref_noise_model_key">Профиль модели шума</string>
     <string name="pref_upscale_array_key_4">20</string>
     <string name="pref_upscale_array_key_5">20</string>
     <string name="pref_lut_selection_key">z80u_main_DCG_P3_byVT.cube</string>
     <string name="pref_color_transform_key">1</string>
+    <boolean name="pref_disable_digital_iso_gain_3" value="false" />
     <string name="pref_bento_meta_type_pref_lut_selection_key">list</string>
     <string name="pref_gcam_lut_key_3">0</string>
     <string name="pref_satcct_g_key">1.0</string>
@@ -497,6 +528,7 @@
     <string name="pref_tonecurve_point_16">1.0</string>
     <string name="pref_tonecurve_point_14">0.875</string>
     <string name="pref_tonecurve_point_15">0.9375</string>
+    <string name="pref_bento_meta_default_pref_nm_coeff_off_key">1.0</string>
     <string name="pref_lut_selection_key_5">z80u_teleISZ_P3_byVT.cube</string>
     <string name="pref_lut_selection_key_4">z80u_main_P3_byVT.cube</string>
     <string name="pref_lut_selection_key_3">z80u_tele_P3_byVT.cube</string>
@@ -515,8 +547,10 @@
     <string name="manual_opmode_video_key_4">32779</string>
     <string name="perf_has_run_second_education">1</string>
     <string name="pref_gcam_awb_key">0</string>
+    <boolean name="pref_iso_noise_key_2" value="true" />
     <string name="pref_nm_iso_min_value">0</string>
     <boolean name="pref_iso_noise_key_5" value="false" />
+    <boolean name="pref_iso_noise_key_3" value="true" />
     <string name="pref_upscale_array_key">20</string>
     <string name="pref_video_amethyst_key">0</string>
     <string name="manual_opmode_more_key">32769</string>
