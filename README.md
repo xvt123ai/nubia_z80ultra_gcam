@@ -45,7 +45,7 @@ Datasheet: [`OV50H (Light Fusion 900)`](docs/OV50H%20(Light%20Fusion%20900)%20da
 - 2× resolution upscaling option (Upscale: Lanczos + Enhancement: RAISR) — optimized for landscapes, architecture, text, and documents (disabled by default)
 - Noise profile, GID sensor type
   - wide — from Z60 with +3.5 correction, BINNED (more details with small noise amount)
-  - main — system default, REMOSAICED (clean look)
+  - main — custom with 0.7/0.8 correction, BINNED (more details & smooth)
   - main DCG — system default, BINNED (more details with small noise amount)
   - tele — system default, REMOSAICED (clean look)
   - tele ISZ — system default, REMOSAICED (clean look)
@@ -58,6 +58,7 @@ Datasheet: [`OV50H (Light Fusion 900)`](docs/OV50H%20(Light%20Fusion%20900)%20da
 - OIS in video
 
 **Notes:**
+- Contrast ToneMap & Clarity enabled for 36mm by default
 - EIS in video does not work correctly on Nubia z80 Ultra (also in a stock camera), disabled by default
 - Enabling DCG may cause a slight reduction in sharpness
 - Enabling DCG may cause a slight increase in chromatic aberration levels in some scenes

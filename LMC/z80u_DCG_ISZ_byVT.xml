@@ -34,10 +34,12 @@
     <string name="pref_fix_resolution_key_5">32</string>
     <string name="pref_watermark_icon_key">zte.png</string>
     <string name="manual_opmode_slowmo_key">32781</string>
+    <string name="pref_bento_meta_default_lib_contrast_tonemap_key">0</string>
     <string name="pref_prev_mul_pref_nm_coeff_scale_key_2">2.0</string>
+    <string name="pref_prev_mul_pref_nm_coeff_scale_key_4">0.8</string>
     <boolean name="pref_disable_digital_iso_gain" value="false" />
     <string name="pref_chroma_denoise_multiplier_value_key">1.0</string>
-    <string name="dev_setting_filter_key">face</string>
+    <string name="dev_setting_filter_key">bitra</string>
     <string name="pref_luma_denoise_gid14_multiplier_value_key">1.0</string>
     <string name="pref_nm_iso_max_value">0</string>
     <string name="br_key">0.119</string>
@@ -53,6 +55,7 @@
     <string name="pref_bento_meta_title_pref_lut_selection_key">LUT Профиль</string>
     <string name="offset_key_a4">0</string>
     <string name="offset_key_a3">0</string>
+    <string name="pref_bento_meta_default_lib_clarity_key">0</string>
     <string name="offset_key_a2">0</string>
     <string name="offset_key_a1">0</string>
     <string name="pref_c2a_key_front">0</string>
@@ -64,6 +67,7 @@
     <string name="pref_c2a_key_5">3</string>
     <string name="pref_visible_button_key_1">1</string>
     <int name="tooltip_impression_trigger_count_for_portrait_smarts_chip" value="1" />
+    <string name="pref_nm_coeff_off_key_4">0.8</string>
     <string name="pref_nm_coeff_off_key_5">1.0</string>
     <string name="pref_c2a_custom_key_name_3"></string>
     <string name="pref_c2a_key_2">3</string>
@@ -104,20 +108,23 @@
     <string name="pref_fix_awbgains_key">0</string>
     <string name="pref_camera_front_flashmode_key">ns</string>
     <string name="pref_resampling_method_key_front">-1</string>
-    <string name="capture_indicator_thumbnail_uri">content://media/external/images/media/16802</string>
+    <string name="capture_indicator_thumbnail_uri">content://media/external/images/media/17735</string>
     <string name="pref_video_fps_vb_key">FPS_30</string>
     <string name="perf_has_run_first_education">1</string>
     <string name="pref_lens_name_key">1</string>
+    <int name="tooltip_impression_count_for_shutter_speed_feature_bottom_sheet_edu" value="1" />
     <string name="pref_black_level_key">1</string>
     <string name="pref_c2a_custom_key_count_4">1</string>
     <string name="lib_oem_noise_key_2">28008052</string>
     <string name="pref_c2a_custom_key_count_3">1</string>
     <string name="pref_specify_res_key_front">0</string>
     <string name="pref_get_enable_camera_key">1</string>
+    <string name="lib_oem_noise_key_4">28008052</string>
     <string name="pref_watermark_logo_horizontal_key">right</string>
     <string name="opmode_video_key_4">0</string>
     <string name="pref_track_focus_key_4">0</string>
     <string name="pref_noise_model_key_3">0</string>
+    <string name="pref_noise_model_key_4">1825355199</string>
     <string name="pref_noise_model_key_2">1539586765</string>
     <string name="pref_camera_kepler_enabled_key">1</string>
     <string name="pref_lib_profile_selection_key">0</string>
@@ -132,6 +139,7 @@
     <string name="pref_camera_picturesize_front_key">2304x1728</string>
     <string name="pref_camera_grid_lines_mode">1</string>
     <long name="tooltip_latest_impression_timestamp_for_cinematic_pan_edu" value="1783528223463" />
+    <string name="pref_bento_meta_type_lib_clarity_key">list</string>
     <string name="pref_nm_coeff_off_key">1.0</string>
     <string name="pref_imax_audio_enabled_key">0</string>
     <string name="pref_wbcorrection_key">0</string>
@@ -160,6 +168,7 @@
     <string name="pref_nm_coeff_scale_key_5">1.0</string>
     <string name="pref_gammacurve_point_31">0.96875</string>
     <string name="pref_gammacurve_point_32">1.0</string>
+    <string name="pref_nm_coeff_scale_key_4">0.7</string>
     <long name="tooltip_latest_impression_timestamp_for_focus_feature_bottom_sheet_edu" value="1783461205213" />
     <string name="pref_nm_coeff_scale_key_2">3.5</string>
     <string name="scale_key_d3">0</string>
@@ -199,6 +208,7 @@
     <string name="pref_c2a_custom_key_value">8</string>
     <string name="manual_google_awb_key_rg2">0.0</string>
     <string name="pref_getfrontid_stringvalues_key">-2,-1,1,1,</string>
+    <string name="pref_bento_meta_title_lib_contrast_tonemap_key">Contrast Tonemap</string>
     <string name="pref_bento_meta_title_pref_sensorid_key">Логика объектива</string>
     <string name="opmode_ns_key">0</string>
     <string name="manual_google_awb_key_bg0">0.0</string>
@@ -268,14 +278,14 @@
     <string name="pref_resampling_method_key_5">0</string>
     <string name="pref_denoise_key">0</string>
     <string name="pref_gammacurve_preset_key"></string>
-    <string name="key_ff_opt_in">0</string>
+    <string name="key_ff_opt_in">1</string>
     <string name="black_level_gr_key_4">0.0</string>
     <string name="pref_model_key_5">husky</string>
     <string name="pref_model_key_4">husky</string>
     <string name="pref_model_key_3">husky</string>
     <string name="pref_bento_meta_type_pref_nm_coeff_scale_key">text</string>
     <string name="pref_model_key_2">auto</string>
-    <string name="pref_bento_selected_quick_params">pref_lut_selection_key&#10;pref_lut_strength_key&#10;pref_sensorid_key&#10;pref_noise_model_key&#10;lib_oem_noise_key&#10;pref_nm_coeff_scale_key&#10;pref_nm_coeff_off_key</string>
+    <string name="pref_bento_selected_quick_params">pref_lut_selection_key&#10;pref_lut_strength_key&#10;pref_sensorid_key&#10;pref_noise_model_key&#10;lib_oem_noise_key&#10;pref_nm_coeff_scale_key&#10;pref_nm_coeff_off_key&#10;lib_contrast_tonemap_key&#10;lib_clarity_key</string>
     <string name="pref_4k_60fps_key">1</string>
     <string name="black_level_r_key">512</string>
     <string name="pref_merge_key_4">1</string>
@@ -289,6 +299,7 @@
     <string name="pref_shutter_command_string">66</string>
     <string name="pref_sabre_sharp_tuning_multiplier_value_key">1.0</string>
     <string name="pref_has_checked_gouda_mode">1</string>
+    <long name="tooltip_latest_impression_timestamp_for_shutter_speed_feature_bottom_sheet_edu" value="1784656626025" />
     <string name="pref_gcam_lut_key">0</string>
     <string name="pref_watermark_icon_size_key">1.0</string>
     <string name="pref_lens_name_key_5">148</string>
@@ -303,6 +314,7 @@
     <string name="pref_camera_hdr_plus_flashmode_thermally_disabled_key">0</string>
     <string name="white_level_manual_key_4">1023</string>
     <string name="manual_opmode_ns_key">32932</string>
+    <string name="lib_contrast_tonemap_key_4">08008052</string>
     <string name="lib_merge3_sabre_fix_key_3">1</string>
     <int name="tooltip_impression_count_for_long_press" value="1" />
     <string name="lib_merge3_sabre_fix_key_2">1</string>
@@ -342,9 +354,11 @@
     <string name="pref_camera_resolution">full</string>
     <string name="pref_google_awb_key_front">20</string>
     <string name="pref_prev_mul_pref_nm_coeff_off_key_2">2.0</string>
+    <string name="pref_prev_mul_pref_nm_coeff_off_key_4">0.9</string>
     <string name="white_level_manual_key">16383</string>
+    <string name="pref_bento_meta_title_lib_clarity_key">Clarity</string>
     <string name="bg_key">-0.914</string>
-    <string name="pref_upscale_key">0</string>
+    <string name="pref_upscale_key">1</string>
     <string name="opmode_fix_photo_key">0</string>
     <string name="pref_af_mode_front">0</string>
     <string name="pref_g_hue_key">0.0</string>
@@ -377,6 +391,7 @@
     <string name="pref_video_fps_4k_key">FPS_30</string>
     <string name="pref_gammacurve_point_22">0.6875</string>
     <string name="pref_gammacurve_point_23">0.71875</string>
+    <string name="pref_camera_timelapse_back_more_light_mode_key">off</string>
     <string name="pref_gammacurve_point_20">0.625</string>
     <string name="pref_gammacurve_point_21">0.65625</string>
     <string name="pref_gammacurve_point_26">0.8125</string>
@@ -425,6 +440,7 @@
     <int name="tooltip_impression_count_for_iso_feature_bottom_sheet_edu" value="1" />
     <string name="pref_color_transform_key_3">1</string>
     <string name="pref_color_transform_key_5">1</string>
+    <string name="pref_bento_meta_type_lib_contrast_tonemap_key">list</string>
     <string name="pref_black_level_key_front">0</string>
     <string name="pref_bento_meta_default_pref_lut_selection_key">off</string>
     <boolean name="pref_sabre_luma_denoise_multiplier_enabled_key" value="false" />
@@ -561,6 +577,7 @@
     <string name="black_level_gb_key">512</string>
     <string name="pref_upscale_key_3">0</string>
     <string name="pref_unfold_preference">0</string>
+    <string name="lib_clarity_key_4">08008052</string>
     <int name="tooltip_impression_count_for_focus_feature_bottom_sheet_edu" value="1" />
     <string name="pref_camera_dirty_lens_history_key0">-10.0|</string>
     <string name="pref_camera_dirty_lens_history_key1">-10.0|</string>
