@@ -58,7 +58,7 @@ Datasheet: [`OV50H (Light Fusion 900)`](docs/OV50H%20(Light%20Fusion%20900)%20da
 - OIS in video
 
 **Notes:**
-- Contrast ToneMap & Clarity enabled for 36mm by default
+- Contrast ToneMap & Clarity enabled for all lenses by default
 - EIS in video does not work correctly on Nubia z80 Ultra (also in a stock camera), disabled by default
 - Enabling DCG may cause a slight reduction in sharpness
 - Enabling DCG may cause a slight increase in chromatic aberration levels in some scenes
