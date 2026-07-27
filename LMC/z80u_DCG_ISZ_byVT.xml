@@ -13,7 +13,7 @@
     <string name="pref_switch_to_previous_mode_command_string">71</string>
     <int name="tooltip_impression_count_for_cinematic_pan_edu" value="1" />
     <string name="pref_has_checked_cheetah_mode">1</string>
-    <string name="pref_nm_coeff_scale_key">1.0</string>
+    <string name="pref_nm_coeff_scale_key">0.5</string>
     <string name="pref_sabre_luma_denoise_multiplier_value_key">1.0</string>
     <string name="pref_ark_camera_id_key_w">-1</string>
     <string name="pref_mode_vesper_level">0</string>
@@ -35,15 +35,20 @@
     <string name="pref_watermark_icon_key">zte.png</string>
     <string name="manual_opmode_slowmo_key">32781</string>
     <string name="pref_bento_meta_default_lib_contrast_tonemap_key">0</string>
-    <string name="pref_prev_mul_pref_nm_coeff_scale_key_2">2.0</string>
-    <string name="pref_prev_mul_pref_nm_coeff_scale_key_4">0.8</string>
+    <string name="pref_prev_mul_pref_nm_coeff_scale_key_2">2.5</string>
+    <string name="pref_prev_mul_pref_nm_coeff_scale_key_3">1.0</string>
+    <string name="pref_prev_mul_pref_nm_coeff_scale_key_4">1.0</string>
     <boolean name="pref_disable_digital_iso_gain" value="false" />
     <string name="pref_chroma_denoise_multiplier_value_key">1.0</string>
     <string name="dev_setting_filter_key">bitra</string>
+    <string name="pref_prev_mul_pref_nm_coeff_scale_key_5">1.7</string>
     <string name="pref_luma_denoise_gid14_multiplier_value_key">1.0</string>
     <string name="pref_nm_iso_max_value">0</string>
+    <string name="pref_preview_key_5">34</string>
     <string name="br_key">0.119</string>
     <string name="pref_bento_meta_type_pref_sensorid_key">list</string>
+    <string name="pref_preview_key_4">34</string>
+    <string name="pref_preview_key_3">34</string>
     <string name="opmode_slowmo_key">0</string>
     <string name="pref_r_hue_key">0.0</string>
     <string name="pref_lib_manual_input_count_key_pro"></string>
@@ -61,25 +66,29 @@
     <string name="pref_c2a_key_front">0</string>
     <string name="pref_has_seen_vertical_pano_hint">1</string>
     <string name="pref_visible_button_key_3">1</string>
-    <string name="pref_nm_coeff_off_key_2">3.5</string>
+    <string name="pref_nm_coeff_off_key_2">4.0</string>
     <string name="pref_visible_button_key_2">1</string>
     <string name="mf_infinity_key">0.01</string>
     <string name="pref_c2a_key_5">3</string>
+    <string name="pref_nm_coeff_off_key_3">1.1</string>
     <string name="pref_visible_button_key_1">1</string>
-    <int name="tooltip_impression_trigger_count_for_portrait_smarts_chip" value="1" />
-    <string name="pref_nm_coeff_off_key_4">0.8</string>
-    <string name="pref_nm_coeff_off_key_5">1.0</string>
+    <int name="tooltip_impression_trigger_count_for_portrait_smarts_chip" value="0" />
+    <string name="pref_nm_coeff_off_key_4">1.1</string>
+    <string name="pref_nm_coeff_off_key_5">3.0</string>
+    <string name="pref_c2a_custom_key_name_2"></string>
     <string name="pref_c2a_custom_key_name_3"></string>
     <string name="pref_c2a_key_2">3</string>
     <string name="manual_opmode_portrait_key">32785</string>
     <string name="pref_c2a_custom_key_name_4"></string>
     <string name="pref_c2a_key_4">3</string>
     <string name="pref_c2a_custom_key_name_5">org.codeaurora.qcamera3.sensor_meta_data.current_mode</string>
+    <string name="pref_nm_curve_key_4">0</string>
     <string name="pref_c2a_key_3">3</string>
     <string name="pref_nm_curve_key_5">0</string>
     <string name="pref_config_name_exif_key">1</string>
     <string name="black_level_b_key">512</string>
     <string name="opmode_fix_unitialized_key">0</string>
+    <string name="lib_clarity_key">08008052</string>
     <string name="pref_c2a_custom_key_enable_5">1</string>
     <string name="lib_merge3_sabre_fix_key">1</string>
     <string name="pref_codec_format">hevc</string>
@@ -94,21 +103,22 @@
     <string name="pref_c2a_key">3</string>
     <string name="pref_lib_profile_icon_3"></string>
     <string name="pref_lib_profile_icon_2"></string>
-    <string name="pref_black_level_key_5">0</string>
+    <string name="pref_black_level_key_5">4</string>
     <string name="pref_lib_profile_icon_5"></string>
     <string name="pref_black_level_key_4">0</string>
     <string name="pref_lib_profile_icon_4"></string>
     <string name="pref_black_level_key_3">0</string>
-    <string name="pref_black_level_key_2">0</string>
+    <string name="pref_black_level_key_2">4</string>
     <string name="pref_lib_profile_icon_6"></string>
     <string name="pref_frames_hdr_key_front">0</string>
     <string name="pref_bento_meta_type_lib_oem_noise_key">list</string>
     <string name="pref_gammacurve_user_name">GammaPreset</string>
     <string name="pref_lib_profile_icon_1"></string>
+    <string name="pref_camera_raw_output_option_available_key">0</string>
     <string name="pref_fix_awbgains_key">0</string>
     <string name="pref_camera_front_flashmode_key">ns</string>
     <string name="pref_resampling_method_key_front">-1</string>
-    <string name="capture_indicator_thumbnail_uri">content://media/external/images/media/17735</string>
+    <string name="capture_indicator_thumbnail_uri">content://media/external/images/media/18374</string>
     <string name="pref_video_fps_vb_key">FPS_30</string>
     <string name="perf_has_run_first_education">1</string>
     <string name="pref_lens_name_key">1</string>
@@ -118,13 +128,17 @@
     <string name="lib_oem_noise_key_2">28008052</string>
     <string name="pref_c2a_custom_key_count_3">1</string>
     <string name="pref_specify_res_key_front">0</string>
+    <string name="pref_c2a_custom_key_count_2">1</string>
     <string name="pref_get_enable_camera_key">1</string>
+    <string name="lib_oem_noise_key_5">28008052</string>
     <string name="lib_oem_noise_key_4">28008052</string>
+    <string name="lib_oem_noise_key_3">28008052</string>
     <string name="pref_watermark_logo_horizontal_key">right</string>
     <string name="opmode_video_key_4">0</string>
     <string name="pref_track_focus_key_4">0</string>
-    <string name="pref_noise_model_key_3">0</string>
+    <string name="pref_noise_model_key_3">1730667039</string>
     <string name="pref_noise_model_key_4">1825355199</string>
+    <string name="pref_noise_model_key_5">1730667039</string>
     <string name="pref_noise_model_key_2">1539586765</string>
     <string name="pref_camera_kepler_enabled_key">1</string>
     <string name="pref_lib_profile_selection_key">0</string>
@@ -135,12 +149,13 @@
     <string name="pref_ois_key">1</string>
     <string name="pref_camera_dynamic_depth_enabled_key">0</string>
     <string name="black_level_corr_key_4">0.0</string>
+    <string name="black_level_corr_key_5">0.0</string>
     <string name="pref_has_shown_longp_education">0</string>
     <string name="pref_camera_picturesize_front_key">2304x1728</string>
     <string name="pref_camera_grid_lines_mode">1</string>
     <long name="tooltip_latest_impression_timestamp_for_cinematic_pan_edu" value="1783528223463" />
     <string name="pref_bento_meta_type_lib_clarity_key">list</string>
-    <string name="pref_nm_coeff_off_key">1.0</string>
+    <string name="pref_nm_coeff_off_key">0.8</string>
     <string name="pref_imax_audio_enabled_key">0</string>
     <string name="pref_wbcorrection_key">0</string>
     <string name="use_spatial_processor_key">0</string>
@@ -160,13 +175,15 @@
     <string name="pref_camera_enable_iris">0</string>
     <string name="pref_bento_meta_default_pref_noise_model_key">0</string>
     <string name="pref_satcct_key">1.0</string>
+    <string name="black_level_r_key_5">0.0</string>
     <string name="pref_getfrontid_stringentries_key">Manual,Auto,&#10;Camera ID= 1(physical)&#10;Focal length= 3.54mm&#10;Aperture= f/2.0&#10;Angle= 78°&#10;Sensitivity range= 100 - 6200&#10;Ae compensation range= -12 - 12&#10;Pixel size= 2.00µm&#10;35mm eqv focal length= 27.56mm&#10;Flash= false&#10;Hardware level= 3,&#10;Camera ID= 1(physical)&#10;Focal length= 3.54mm&#10;Aperture= f/2.0&#10;Angle= 78°&#10;Sensitivity range= 100 - 6200&#10;Ae compensation range= -12 - 12&#10;Pixel size= 2.00µm&#10;35mm eqv focal length= 27.56mm&#10;Flash= false&#10;Hardware level= 3,</string>
     <string name="black_level_r_key_4">0.0</string>
     <string name="pref_model_key_front">auto</string>
     <string name="pip_size_key">1.0</string>
     <string name="pref_gammacurve_point_30">0.9375</string>
-    <string name="pref_nm_coeff_scale_key_5">1.0</string>
+    <string name="pref_nm_coeff_scale_key_5">2.5</string>
     <string name="pref_gammacurve_point_31">0.96875</string>
+    <string name="pref_nm_coeff_scale_key_3">0.8</string>
     <string name="pref_gammacurve_point_32">1.0</string>
     <string name="pref_nm_coeff_scale_key_4">0.7</string>
     <long name="tooltip_latest_impression_timestamp_for_focus_feature_bottom_sheet_edu" value="1783461205213" />
@@ -195,8 +212,8 @@
     <string name="pref_gammacurve_point_6">0.1875</string>
     <string name="manual_google_awb_key_rg0">0.0</string>
     <string name="pref_cct_wbintensity_key">0.0</string>
-    <string name="pref_merge_key">1</string>
     <boolean name="pref_sabre_sharp_tuning_multiplier_enabled_key" value="false" />
+    <string name="pref_merge_key">1</string>
     <set name="pref_list_front_camera_key">
         <string>1</string>
     </set>
@@ -222,6 +239,7 @@
     <string name="raw_key_5">32</string>
     <string name="manual_google_awb_key_bg2">0.0</string>
     <string name="opmode_fix_portrait_key">0</string>
+    <string name="pref_c2a_custom_key_value_2">0</string>
     <string name="pref_check_hal_update_after_gca_version">68013614</string>
     <string name="manual_google_awb_key_rg7">0.0</string>
     <string name="pref_satcct_b_key">1.0</string>
@@ -280,11 +298,12 @@
     <string name="pref_gammacurve_preset_key"></string>
     <string name="key_ff_opt_in">1</string>
     <string name="black_level_gr_key_4">0.0</string>
+    <string name="black_level_gr_key_5">0.0</string>
     <string name="pref_model_key_5">husky</string>
     <string name="pref_model_key_4">husky</string>
     <string name="pref_model_key_3">husky</string>
     <string name="pref_bento_meta_type_pref_nm_coeff_scale_key">text</string>
-    <string name="pref_model_key_2">auto</string>
+    <string name="pref_model_key_2">husky</string>
     <string name="pref_bento_selected_quick_params">pref_lut_selection_key&#10;pref_lut_strength_key&#10;pref_sensorid_key&#10;pref_noise_model_key&#10;lib_oem_noise_key&#10;pref_nm_coeff_scale_key&#10;pref_nm_coeff_off_key&#10;lib_contrast_tonemap_key&#10;lib_clarity_key</string>
     <string name="pref_4k_60fps_key">1</string>
     <string name="black_level_r_key">512</string>
@@ -308,23 +327,28 @@
     <string name="pref_lens_name_key_3">74</string>
     <string name="pref_lens_name_key_2">18</string>
     <string name="pref_lens_name_key_1">36dcg</string>
+    <string name="pref_expcomp_available_key_3">0</string>
     <string name="pref_expcomp_available_key_4">0</string>
     <string name="pref_interface_key_front">auto</string>
-    <string name="pref_prev_mul_pref_nm_coeff_scale_key">1.0</string>
+    <string name="pref_prev_mul_pref_nm_coeff_scale_key">0.4</string>
+    <string name="white_level_manual_key_5">1023</string>
     <string name="pref_camera_hdr_plus_flashmode_thermally_disabled_key">0</string>
     <string name="white_level_manual_key_4">1023</string>
     <string name="manual_opmode_ns_key">32932</string>
     <string name="lib_contrast_tonemap_key_4">08008052</string>
+    <string name="lib_contrast_tonemap_key_5">08008052</string>
     <string name="lib_merge3_sabre_fix_key_3">1</string>
     <int name="tooltip_impression_count_for_long_press" value="1" />
+    <string name="lib_contrast_tonemap_key_2">08008052</string>
     <string name="lib_merge3_sabre_fix_key_2">1</string>
+    <string name="lib_contrast_tonemap_key_3">08008052</string>
     <string name="pref_model_key">husky</string>
     <string name="pref_zsl_frames_key_5">24</string>
     <string name="lib_merge3_sabre_fix_key_5">1</string>
     <string name="lib_merge3_sabre_fix_key_4">1</string>
     <string name="pref_interpolation_key">0</string>
     <string name="pref_zsl_frames_key_2">24</string>
-    <string name="pref_prev_mul_pref_nm_coeff_off_key">2.0</string>
+    <string name="pref_prev_mul_pref_nm_coeff_off_key">0.6</string>
     <string name="pref_camera_picturesize_back_key">4096x3072</string>
     <string name="pref_zsl_frames_key_4">24</string>
     <string name="pref_zsl_frames_key_3">24</string>
@@ -338,27 +362,31 @@
     <string name="pref_expcomp_key_4">0.0</string>
     <string name="pref_ark_camera_id_key_uw">-1</string>
     <string name="pref_camera_video_back_flashmode_thermally_disabled_key">0</string>
-    <string name="pref_white_level_key_5">0</string>
+    <string name="black_level_gb_key_5">0.0</string>
+    <string name="pref_white_level_key_5">1023</string>
     <int name="tooltip_impression_count_for_amethyst_edu" value="1" />
     <string name="black_level_gb_key_4">0.0</string>
+    <string name="lib_oem_noise_key">28008052</string>
     <string name="pref_wbcolor_space_key">0</string>
     <string name="pref_white_level_key_3">0</string>
     <string name="pref_interface_key_4">husky</string>
     <string name="pref_double_tap_launch_edu_count">2</string>
     <string name="pref_white_level_key_4">1023</string>
     <string name="pref_interface_key_5">husky</string>
-    <string name="pref_interface_key_2">auto</string>
+    <string name="pref_interface_key_2">husky</string>
     <string name="mf_far_key">0.833</string>
-    <string name="pref_white_level_key_2">0</string>
+    <string name="pref_white_level_key_2">1023</string>
     <string name="pref_interface_key_3">husky</string>
     <string name="pref_camera_resolution">full</string>
     <string name="pref_google_awb_key_front">20</string>
-    <string name="pref_prev_mul_pref_nm_coeff_off_key_2">2.0</string>
-    <string name="pref_prev_mul_pref_nm_coeff_off_key_4">0.9</string>
+    <string name="pref_prev_mul_pref_nm_coeff_off_key_2">3.0</string>
+    <string name="pref_prev_mul_pref_nm_coeff_off_key_3">0.9</string>
+    <string name="pref_prev_mul_pref_nm_coeff_off_key_4">0.8</string>
     <string name="white_level_manual_key">16383</string>
+    <string name="pref_prev_mul_pref_nm_coeff_off_key_5">3.5</string>
     <string name="pref_bento_meta_title_lib_clarity_key">Clarity</string>
     <string name="bg_key">-0.914</string>
-    <string name="pref_upscale_key">1</string>
+    <string name="pref_upscale_key">0</string>
     <string name="opmode_fix_photo_key">0</string>
     <string name="pref_af_mode_front">0</string>
     <string name="pref_g_hue_key">0.0</string>
@@ -388,7 +416,7 @@
     <string name="pref_gammacurve_point_18">0.5625</string>
     <string name="lib_fix_raw_sensor_key_3">1F2003D5</string>
     <string name="pref_c2a_custom_key_name">org.codeaurora.qcamera3.sensor_meta_data.current_mode</string>
-    <string name="pref_video_fps_4k_key">FPS_30</string>
+    <string name="pref_video_fps_4k_key">FPS_60</string>
     <string name="pref_gammacurve_point_22">0.6875</string>
     <string name="pref_gammacurve_point_23">0.71875</string>
     <string name="pref_camera_timelapse_back_more_light_mode_key">off</string>
@@ -401,6 +429,7 @@
     <string name="pref_gammacurve_point_28">0.875</string>
     <string name="pref_google_awb_key">1</string>
     <string name="pref_gammacurve_point_29">0.90625</string>
+    <string name="lib_contrast_tonemap_key">08008052</string>
     <string name="pref_resampling_method_key">0</string>
     <string name="pref_interface_key">husky</string>
     <string name="pref_lib_profile_name_4"></string>
@@ -428,6 +457,7 @@
     <string name="pref_color_transform_key_2">1</string>
     <string name="pref_fix_resolution_key">32</string>
     <string name="opmode_portrait_key">0</string>
+    <string name="pref_colortransform_adjust_key_4">0</string>
     <string name="pref_color_transform_key_front">0</string>
     <string name="lib_fix_raw_sensor_key">1F2003D5</string>
     <string name="pref_bento_meta_default_pref_nm_coeff_scale_key">1.0</string>
@@ -477,6 +507,7 @@
     <string name="pref_manual_camera_id_key_5">3</string>
     <long name="tooltip_latest_impression_timestamp_for_amethyst_edu" value="1783527748183" />
     <string name="black_level_b_key_4">0.0</string>
+    <string name="black_level_b_key_5">0.0</string>
     <string name="pref_manual_camera_id_key_3">-1</string>
     <string name="pref_manual_camera_id_key_4">0</string>
     <string name="pref_watermark_datetime_key">none</string>
@@ -486,13 +517,13 @@
     <string name="pref_google_awb_key_4">1</string>
     <string name="pref_google_awb_key_2">1</string>
     <string name="pref_bento_meta_title_pref_nm_coeff_off_key">Чистота теней</string>
-    <string name="pref_sensorid_key">3</string>
+    <string name="pref_sensorid_key">2</string>
     <string name="gr_key">-0.148</string>
     <boolean name="pref_iso_noise_key" value="false" />
     <string name="pref_mars_enabled">0</string>
     <string name="pref_luma_denoise_multiplier_value_key">1.0</string>
     <string name="pref_volume_key_action">shutter</string>
-    <string name="pref_watermark_size_key">1.0</string>
+    <string name="pref_watermark_size_key">0.75</string>
     <string name="pref_upscale_array_key_2">20</string>
     <string name="pref_upscale_array_key_3">20</string>
     <string name="pref_bento_meta_title_pref_noise_model_key">Профиль модели шума</string>
@@ -502,6 +533,7 @@
     <string name="pref_color_transform_key">1</string>
     <boolean name="pref_disable_digital_iso_gain_3" value="false" />
     <string name="pref_bento_meta_type_pref_lut_selection_key">list</string>
+    <boolean name="pref_disable_digital_iso_gain_4" value="false" />
     <string name="pref_gcam_lut_key_3">0</string>
     <string name="pref_satcct_g_key">1.0</string>
     <string name="pref_gcam_lut_key_4">0</string>
@@ -509,7 +541,7 @@
     <string name="pref_camera_hdr_plus_key">auto</string>
     <string name="pref_video_stabilization_key">0</string>
     <string name="pref_gcam_lut_key_2">0</string>
-    <string name="pref_preview_key">0</string>
+    <string name="pref_preview_key">34</string>
     <string name="opmode_unitialized_key">0</string>
     <boolean name="pref_key_reboot_completed" value="true" />
     <string name="opmode_photo_key">0</string>
@@ -531,6 +563,7 @@
     <string name="use_spatial_processor_key_4">0</string>
     <string name="use_spatial_processor_key_5">0</string>
     <string name="pref_getbackid_stringvalues_key">-2,-1,0,0,2,3,4,2,3,4,</string>
+    <string name="pref_preview_key_2">34</string>
     <string name="opmode_fix_timelapse_key">0</string>
     <string name="pref_nm_coeff_key">1.0</string>
     <string name="opmode_fix_video_key">0</string>
@@ -563,10 +596,11 @@
     <string name="manual_opmode_video_key_4">32779</string>
     <string name="perf_has_run_second_education">1</string>
     <string name="pref_gcam_awb_key">0</string>
-    <boolean name="pref_iso_noise_key_2" value="true" />
+    <boolean name="pref_iso_noise_key_2" value="false" />
     <string name="pref_nm_iso_min_value">0</string>
     <boolean name="pref_iso_noise_key_5" value="false" />
     <boolean name="pref_iso_noise_key_3" value="true" />
+    <boolean name="pref_iso_noise_key_4" value="false" />
     <string name="pref_upscale_array_key">20</string>
     <string name="pref_video_amethyst_key">0</string>
     <string name="manual_opmode_more_key">32769</string>
@@ -577,11 +611,14 @@
     <string name="black_level_gb_key">512</string>
     <string name="pref_upscale_key_3">0</string>
     <string name="pref_unfold_preference">0</string>
+    <string name="lib_clarity_key_5">08008052</string>
     <string name="lib_clarity_key_4">08008052</string>
     <int name="tooltip_impression_count_for_focus_feature_bottom_sheet_edu" value="1" />
+    <string name="lib_clarity_key_3">08008052</string>
     <string name="pref_camera_dirty_lens_history_key0">-10.0|</string>
+    <string name="lib_clarity_key_2">08008052</string>
     <string name="pref_camera_dirty_lens_history_key1">-10.0|</string>
-    <string name="pref_camera_dirty_lens_history_key2">-17.0|</string>
+    <string name="pref_camera_dirty_lens_history_key2">-10.0|</string>
     <string name="opmode_video_key">0</string>
     <string name="pref_camera_dirty_lens_history_key3">-10.0|</string>
     <string name="pref_opmode_fix_sdk_key">0</string>
@@ -589,7 +626,7 @@
     <string name="pref_tone_curve_mode_key">0</string>
     <boolean name="pref_chroma_denoise_multiplier_enabled_key" value="false" />
     <string name="pref_video_resolution">RES_2160P</string>
-    <string name="pref_noise_model_key">0</string>
+    <string name="pref_noise_model_key">1825355199</string>
     <string name="pref_sensor_bayer_pattern_key">0</string>
     <string name="pref_camera_advice_settings">1</string>
     <string name="pref_camera_pistachio_enabled_key">1</string>

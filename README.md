@@ -39,16 +39,16 @@ Datasheet: [`OV50H (Light Fusion 900)`](docs/OV50H%20(Light%20Fusion%20900)%20da
 - HDR+ ZSL (Zero Shutter Lag) mode (24-frames)
 - HDR+ Enhanced mode (8-frames)
 - Night mode with automatic and manual frame accumulation control
-- Portrait mode with background blur
+- Portrait mode with background blur and upscaling
 - JWB
-- DCI-P3 JPGs
+- DCI-P3 JPGs (enabled by default)
 - 2× resolution upscaling option (Upscale: Lanczos + Enhancement: RAISR) — optimized for landscapes, architecture, text, and documents (disabled by default)
 - Noise profile, GID sensor type
-  - wide — from Z60 with +3.5 correction, BINNED (more details with small noise amount)
-  - main — custom with 0.7/0.8 correction, BINNED (more details & smooth)
-  - main DCG — system default, BINNED (more details with small noise amount)
-  - tele — system default, REMOSAICED (clean look)
-  - tele ISZ — system default, REMOSAICED (clean look)
+  - wide — based on Z60 with 3.5/4.5 correction, BINNED, (more details with small noise amount)
+  - main — custom with 0.7/1.1 corrections, BINNED, (more details & smooth)
+  - main DCG — custom with 0.5/0.8 corrections, BINNED, (more details & smooth)
+  - tele — based on Z60 with 0.8/1.1 correction, REMOSAICED, (clean look)
+  - tele ISZ — based on Z60 with 2.5/3.0 correction, REMOSAICED, (clean look)
 - Watermark
 
 
